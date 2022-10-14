@@ -1,9 +1,9 @@
 module "tfplan-functions" {
-    source = "tfplan-functions/tfplan-functions.sentinel"
+    source = "../tfplan-functions/tfplan-functions.sentinel"
 }
 
 module "azure-functions" {
-    source = "azure-functions/azure-functions.sentinel"
+    source = "../azure-functions/azure-functions.sentinel"
 }
 
 policy "cost-policy" {
